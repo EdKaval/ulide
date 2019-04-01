@@ -7,7 +7,7 @@ gpu = component.gpu
 
 screenWidth, screenHeight = gpu.getResolution()
 cursor:init()
-local t = text:new("test.lua")
+local t = text:new("../test.lua")
 term.clear()
 t:draw()
 
